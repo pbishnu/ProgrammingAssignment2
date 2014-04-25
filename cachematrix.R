@@ -2,7 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
-
+# returns a cache version of the inverted matrix
 makeCacheMatrix <- function(x = matrix()) {
   s <- NULL
   set <- function(y) {
